@@ -4,6 +4,15 @@ public class PalindromeArray {
     // Space Complexity O(1)
     static void checkPalin1(int[] arr){
         int i=0,j=arr.length-1;
+        int n=arr.length;
+        for(int k=0; k<n/2; k++){
+            if(arr[k]!=arr[n-i-1]){
+                System.out.println("Not Palindrome");
+                return;
+            }
+        }
+        System.out.println("Palindorme ");
+
         while(i<j){
             if(arr[i]!=arr[j]){
                 System.out.println("Given Array is not Plaindrome.");
