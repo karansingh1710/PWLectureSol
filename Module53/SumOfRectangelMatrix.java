@@ -1,5 +1,7 @@
 import java.util.*;
-public class PrefixSum2DArray {
+// Time complexity is O(n)
+// Space Complexity is O(1)
+public class SumOfRectangelMatrix {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
 
