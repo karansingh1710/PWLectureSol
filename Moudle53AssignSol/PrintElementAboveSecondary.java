@@ -28,6 +28,7 @@ public class PrintElementAboveSecondary {
         // Calling the method to print the element above the seconday diagonal
         System.out.println("Elements are:");
         printSecondaryElement(mat);
+        sc.close();
     }
     
 }
