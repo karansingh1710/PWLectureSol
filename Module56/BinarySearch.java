@@ -27,5 +27,8 @@ public class BinarySearch {
         }
         System.out.println("Enter target element:");
         int target=sc.nextInt();
+
+        System.out.println("The target is present on index "+binarySearch(arr, target));
+        sc.close();
     }
 }
