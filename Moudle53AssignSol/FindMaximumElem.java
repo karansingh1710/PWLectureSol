@@ -32,5 +32,6 @@ public class FindMaximumElem {
         }
 
         System.out.println("The maximum element is "+findMax(arr));
+        sc.close();
     }
 }
