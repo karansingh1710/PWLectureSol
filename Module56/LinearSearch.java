@@ -22,5 +22,6 @@ public class LinearSearch {
         System.out.println("Enter Target Element to search");
         int target=sc.nextInt();
         System.out.println("The target element is found at "+searchElement(arr, target));
+        sc.close();
     }
 }
