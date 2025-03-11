@@ -24,7 +24,7 @@ public class SumOfDigit {
         System.out.print("Enter number : ");
         int num=sc.nextInt();
         System.out.println("The sum of digit is "+digitSum(num));
-        System.out.println("Reversed Num is "+rev(num,0));
+        // System.out.println("Reversed Num is "+rev(num,0));
         sc.close();
     }
 }
