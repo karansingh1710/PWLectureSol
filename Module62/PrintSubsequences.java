@@ -1,7 +1,6 @@
 package Module62;
 
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class PrintSubsequences {
     static void printSequence(int[] arr, int idx,ArrayList<Integer>  tempArr){
