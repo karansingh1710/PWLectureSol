@@ -1,7 +1,6 @@
 package Module62;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class PrintSubsequences {
@@ -25,12 +24,6 @@ public class PrintSubsequences {
         subSequences(idx+1, str, ans+str.charAt(idx));
     }
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        System.out.print("Enter String : ");
-        String str=sc.next();
-        subSequences(0,str,"");
-        sc.close();
-
         printSequence(new int[]{1,2,3}, 0, new ArrayList<>());
     }
 }
