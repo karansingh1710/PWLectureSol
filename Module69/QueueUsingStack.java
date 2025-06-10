@@ -43,5 +43,9 @@ public class QueueUsingStack {
 
         System.out.println(queue.dQueue()+" removed");
 
+        queue.enQueue(10);
+        queue.enQueue(25);
+        System.out.println("Queue elements are "+queue.stack1);
+
     }
 }
